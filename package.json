@@ -1,16 +1,59 @@
 {
-  "name": "static-site",
+  "name": "readme-templategenerator",
   "version": "1.0.0",
+  "description": "A JS file capable of producing a README.md file when run through the terminal throught the command \"node index.js\". Functions as intended, though unsure of what specifics to certain input areas would entail (such as tableOfContents and what badges are in relationship to licensing).",
   "main": "index.js",
+  "dependencies": {
+    "ansi-escapes": "^3.2.0",
+    "ansi-regex": "^4.1.0",
+    "chalk": "^2.4.2",
+    "color-convert": "^1.9.3",
+    "cli-width": "^2.2.1",
+    "ansi-styles": "^3.2.1",
+    "color-name": "^1.1.3",
+    "escape-string-regexp": "^1.0.5",
+    "cli-cursor": "^2.1.0",
+    "figures": "^2.0.0",
+    "external-editor": "^3.1.0",
+    "chardet": "^0.7.0",
+    "fs-extra": "^10.0.1",
+    "has-flag": "^3.0.0",
+    "graceful-fs": "^4.2.9",
+    "iconv-lite": "^0.4.24",
+    "jsonfile": "^6.1.0",
+    "inquirer": "^6.5.2",
+    "is-fullwidth-code-point": "^2.0.0",
+    "mimic-fn": "^1.2.0",
+    "lodash": "^4.17.21",
+    "mute-stream": "^0.0.7",
+    "onetime": "^2.0.1",
+    "restore-cursor": "^2.0.0",
+    "run-async": "^2.4.1",
+    "os-tmpdir": "^1.0.2",
+    "signal-exit": "^3.0.7",
+    "rxjs": "^6.6.7",
+    "safer-buffer": "^2.1.2",
+    "strip-ansi": "^5.2.0",
+    "through": "^2.3.8",
+    "string-width": "^2.1.1",
+    "supports-color": "^5.5.0",
+    "tslib": "^1.14.1",
+    "universalify": "^2.0.0",
+    "tmp": "^0.0.33"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "fs-extra": "^10.0.1",
-    "inquirer": "^6.5.2"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alraune-belladonna/README-TemplateGenerator.git"
   },
   "keywords": [],
-  "description": ""
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alraune-belladonna/README-TemplateGenerator/issues"
+  },
+  "homepage": "https://github.com/alraune-belladonna/README-TemplateGenerator#readme"
 }
